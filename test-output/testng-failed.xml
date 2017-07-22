@@ -7,7 +7,7 @@
         <methods>
           <include name="teaddorn"/>
           <include name="initialize123"/>
-          <include name="basePageNavigation" invocation-numbers="0 1"/>
+          <include name="search"/>
         </methods>
       </class> <!-- Ralphs.HomePage -->
     </classes>

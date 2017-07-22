@@ -14,5 +14,11 @@
   </test> <!-- Test -->
 
 
+  <test name="Search Result Testing">
+     <classes><class name="Ralphs.HomePage"></class>
+     </classes>
+  </test> <!-- Test -->
+
+
 </suite> <!-- Suite -->
 

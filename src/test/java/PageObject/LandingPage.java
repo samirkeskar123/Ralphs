@@ -10,7 +10,7 @@ public class LandingPage {
 	
 	By Signin = By.cssSelector("#root > div > div.Page-sidebar > div > div > div.SignInPanel > div:nth-child(2) > button");
     By Search = By.cssSelector("#root > div > div.Page-top > div.Header.Page-header > div > div.DesktopHeader-primary > div.DesktopHeader-primary-left > div.DesktopHeader-search > div > div > form > span > input");
-
+    By SearchButton = By.cssSelector(".Input-button");
     
     //Creating Constructor
     public LandingPage(WebDriver driver) {
@@ -27,6 +27,10 @@ public class LandingPage {
     public WebElement getSearch() {
 		return driver.findElement(Search);
     	
-    	
     }
+    
+    public WebElement SearchButton(){
+    	return driver.findElement(SearchButton);
+    }
+    
 }

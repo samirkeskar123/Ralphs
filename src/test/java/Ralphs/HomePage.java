@@ -41,6 +41,18 @@ public class HomePage extends base {
 		lp.getloginbutton().click();
 	}
 	
+	@Test (dataProvider = "SearchData")
+	public void search(String Search) throws InterruptedException {
+
+		driver.get(prop.getProperty("url"));
+		LandingPage l2 = new LandingPage(driver);
+		l2.getSearch().click();
+		Thread.sleep(1000);
+		System.out.println("Searchbutton is clicked");
+		l2.getSearch().sendKeys(Search);
+		l2.SearchButton().click();
+	}
+	
 	
 	@AfterTest
 	
@@ -53,7 +65,7 @@ public class HomePage extends base {
 	
 	@DataProvider 
 	public Object[][] Signindata() {
-		// 2 Row and 3 Column
+		// 2 Row and 2 Column
 		Object[][] data = new Object [2][2]; 
 		
 		data[0][0]="nonrestricteduser@qw.com";
@@ -65,5 +77,16 @@ public class HomePage extends base {
 		
 		
 		return data;
+	}
+	
+	
+	@DataProvider
+	public Object[][] SearchData(){
+		
+		return new Object[][]{
+			
+			new Object[] {"coke"},
+			new Object[] {"Pepsi"}
+		};
 	}
 }
