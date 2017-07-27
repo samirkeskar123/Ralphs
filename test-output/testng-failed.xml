@@ -7,7 +7,7 @@
         <methods>
           <include name="teaddorn"/>
           <include name="initialize123"/>
-          <include name="search"/>
+          <include name="storefinder" invocation-numbers="1"/>
         </methods>
       </class> <!-- Ralphs.HomePage -->
     </classes>
