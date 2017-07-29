@@ -19,11 +19,8 @@
           </suiteXmlFiles>
         </configuration>
       </plugin>
-   
-</plugins>
-  
-  
-  </build>
+   </plugins>
+ </build>
   
   
   <dependencies>

@@ -16,10 +16,10 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class base {
 
-	public static WebDriver driver;
-	public Properties prop;
-public WebDriver initializeDriver() throws IOException
-{
+public static WebDriver driver;
+public Properties prop;
+
+public WebDriver initializeDriver() throws IOException {
 	
  prop= new Properties();
  FileInputStream fis=new FileInputStream("C:\\Users\\Samir Personal\\workspace\\Ralphddf\\src\\test\\java\\resources\\data.properties");

@@ -1,119 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="35965" started-at="2017-07-27T03:00:07Z" finished-at="2017-07-27T03:00:43Z">
+  <suite name="Default suite" duration-ms="32405" started-at="2017-07-29T01:25:57Z" finished-at="2017-07-29T01:26:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="35965" started-at="2017-07-27T03:00:07Z" finished-at="2017-07-27T03:00:43Z">
-      <class name="Ralphs.HomePage">
-        <test-method status="PASS" signature="initialize123()[pri:0, instance:Ralphs.HomePage@6f7fd0e6]" name="initialize123" is-config="true" duration-ms="2861" started-at="2017-07-26T20:00:07Z" finished-at="2017-07-26T20:00:09Z">
+    <test name="Default test" duration-ms="32405" started-at="2017-07-29T01:25:57Z" finished-at="2017-07-29T01:26:29Z">
+      <class name="Ralphs.CreateAccountTest">
+        <test-method status="PASS" signature="Initialize456()[pri:0, instance:Ralphs.CreateAccountTest@6f7fd0e6]" name="Initialize456" is-config="true" duration-ms="2711" started-at="2017-07-28T18:25:57Z" finished-at="2017-07-28T18:26:00Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initialize123 -->
-        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Ralphs.HomePage@6f7fd0e6]" name="basePageNavigation" duration-ms="8047" started-at="2017-07-26T20:00:09Z" data-provider="Signindata" finished-at="2017-07-26T20:00:18Z">
+        </test-method> <!-- Initialize456 -->
+        <test-method status="PASS" signature="YourLocation(java.lang.String)[pri:1, instance:Ralphs.CreateAccountTest@6f7fd0e6]" name="YourLocation" duration-ms="10695" started-at="2017-07-28T18:26:00Z" data-provider="Location" finished-at="2017-07-28T18:26:10Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[nonrestricteduser@qw.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123456]]>
+                <![CDATA[Los Angeles]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- basePageNavigation -->
-        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Ralphs.HomePage@6f7fd0e6]" name="basePageNavigation" duration-ms="4331" started-at="2017-07-26T20:00:18Z" data-provider="Signindata" finished-at="2017-07-26T20:00:22Z">
+        </test-method> <!-- YourLocation -->
+        <test-method status="PASS" signature="YourLocation(java.lang.String)[pri:1, instance:Ralphs.CreateAccountTest@6f7fd0e6]" name="YourLocation" duration-ms="7337" started-at="2017-07-28T18:26:10Z" data-provider="Location" finished-at="2017-07-28T18:26:18Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[restricteduser@qw.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[456788]]>
+                <![CDATA[Torrance]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- basePageNavigation -->
-        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:Ralphs.HomePage@6f7fd0e6]" name="search" duration-ms="3254" started-at="2017-07-26T20:00:22Z" data-provider="SearchData" finished-at="2017-07-26T20:00:25Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[coke]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- YourLocation -->
+        <test-method status="PASS" signature="CreateAccountShoppingList()[pri:2, instance:Ralphs.CreateAccountTest@6f7fd0e6]" name="CreateAccountShoppingList" duration-ms="5175" started-at="2017-07-28T18:26:18Z" finished-at="2017-07-28T18:26:23Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- search -->
-        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:Ralphs.HomePage@6f7fd0e6]" name="search" duration-ms="8690" started-at="2017-07-26T20:00:25Z" data-provider="SearchData" finished-at="2017-07-26T20:00:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Pepsi]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- CreateAccountShoppingList -->
+        <test-method status="PASS" signature="TermsAndCondition()[pri:3, instance:Ralphs.CreateAccountTest@6f7fd0e6]" name="TermsAndCondition" duration-ms="4390" started-at="2017-07-28T18:26:23Z" finished-at="2017-07-28T18:26:27Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- search -->
-        <test-method status="PASS" signature="storefinder(java.lang.String)[pri:0, instance:Ralphs.HomePage@6f7fd0e6]" name="storefinder" duration-ms="1866" started-at="2017-07-26T20:00:34Z" data-provider="Storezipsearch" finished-at="2017-07-26T20:00:36Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[San Jose]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- TermsAndCondition -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Ralphs.CreateAccountTest@6f7fd0e6]" name="teardown" is-config="true" duration-ms="2081" started-at="2017-07-28T18:26:27Z" finished-at="2017-07-28T18:26:29Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- storefinder -->
-        <test-method status="PASS" signature="storefinder(java.lang.String)[pri:0, instance:Ralphs.HomePage@6f7fd0e6]" name="storefinder" duration-ms="1549" started-at="2017-07-26T20:00:36Z" data-provider="Storezipsearch" finished-at="2017-07-26T20:00:37Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Milpitas]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- storefinder -->
-        <test-method status="PASS" signature="storefinder1(java.lang.String)[pri:0, instance:Ralphs.HomePage@6f7fd0e6]" name="storefinder1" duration-ms="1603" started-at="2017-07-26T20:00:37Z" data-provider="Storezipsearch1" finished-at="2017-07-26T20:00:39Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[90032]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- storefinder1 -->
-        <test-method status="PASS" signature="storefinder1(java.lang.String)[pri:0, instance:Ralphs.HomePage@6f7fd0e6]" name="storefinder1" duration-ms="1612" started-at="2017-07-26T20:00:39Z" data-provider="Storezipsearch1" finished-at="2017-07-26T20:00:40Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[95035]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- storefinder1 -->
-        <test-method status="PASS" signature="teaddorn()[pri:0, instance:Ralphs.HomePage@6f7fd0e6]" name="teaddorn" is-config="true" duration-ms="2131" started-at="2017-07-26T20:00:40Z" finished-at="2017-07-26T20:00:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teaddorn -->
-      </class> <!-- Ralphs.HomePage -->
+        </test-method> <!-- teardown -->
+      </class> <!-- Ralphs.CreateAccountTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

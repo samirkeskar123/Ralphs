@@ -4,20 +4,18 @@
 
   <listeners>
       <listener class-name="Ralphs.listeners"></listener>
-  
   </listeners>
   
-  
-  <test name="Validating Home Page Landing">
-     <classes><class name="Ralphs.HomePage"></class>
-     </classes>
-  </test> <!-- Test -->
-
 
   <test name="Search Result Testing">
      <classes><class name="Ralphs.HomePage"></class>
      </classes>
-  </test> <!-- Test -->
+  </test> 
+  
+  <test name="CreateAccountLocation">
+  <classes><class name="Ralphs.CreateAccountTest"></class>
+  </classes>
+  </test>
 
 
 </suite> <!-- Suite -->

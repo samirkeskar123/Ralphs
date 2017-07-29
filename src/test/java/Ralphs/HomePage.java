@@ -5,15 +5,10 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
 import PageObject.LandingPage;
 import PageObject.LoginPage;
-
-
 import static org.testng.Assert.assertEquals;
-
 import java.io.IOException;
-
 import org.apache.commons.logging.impl.Log4JLogger;
 //import org.apache.logging.log4j.LogManager;
 //import org.apache.logging.log4j.Logger;
@@ -28,11 +23,11 @@ public class HomePage extends base {
 	@BeforeTest
 	public void initialize123() throws IOException
 	{
-	
 		 driver =initializeDriver();
 
 	}
 	
+	// Test Case to validate Invalid Signon Attempt
 	@Test (dataProvider = "Signindata")
 	public void basePageNavigation(String Username,String Password) throws IOException, InterruptedException {
 		
@@ -87,6 +82,7 @@ public class HomePage extends base {
 			System.out.println("Storelink by zipcode is clicked");
 			l4.Storelinkzip().sendKeys( Storezipsearchnew);
 		    l4.StoreFinderZipbutton().click();
+		    Thread.sleep(2000);
 		    String City= l4.StoreCityName().getText();
 		    if(City == "90032"){
 		    	System.out.println("City is El Sereno");
@@ -111,7 +107,7 @@ public class HomePage extends base {
 	
 	 public void teaddorn() {
 		
-		driver.close();
+	    driver.close();
 		driver =null;
 		
 	}

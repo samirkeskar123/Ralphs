@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Ralphs.HomePage">
+      <class name="Ralphs.CreateAccountTest">
         <methods>
-          <include name="teaddorn"/>
-          <include name="initialize123"/>
-          <include name="storefinder" invocation-numbers="1"/>
+          <include name="teardown"/>
+          <include name="TermsAndCondition"/>
+          <include name="Initialize456"/>
         </methods>
-      </class> <!-- Ralphs.HomePage -->
+      </class> <!-- Ralphs.CreateAccountTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
