@@ -5,8 +5,8 @@
     <classes>
       <class name="Ralphs.CreateAccountTest">
         <methods>
+          <include name="DepartmentMenu1"/>
           <include name="teardown"/>
-          <include name="TermsAndCondition"/>
           <include name="Initialize456"/>
         </methods>
       </class> <!-- Ralphs.CreateAccountTest -->

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="32405" started-at="2017-07-29T01:25:57Z" finished-at="2017-07-29T01:26:29Z">
+  <suite name="Default suite" duration-ms="28354" started-at="2017-07-30T05:55:33Z" finished-at="2017-07-30T05:56:01Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="32405" started-at="2017-07-29T01:25:57Z" finished-at="2017-07-29T01:26:29Z">
+    <test name="Default test" duration-ms="28354" started-at="2017-07-30T05:55:33Z" finished-at="2017-07-30T05:56:01Z">
       <class name="Ralphs.CreateAccountTest">
-        <test-method status="PASS" signature="Initialize456()[pri:0, instance:Ralphs.CreateAccountTest@6f7fd0e6]" name="Initialize456" is-config="true" duration-ms="2711" started-at="2017-07-28T18:25:57Z" finished-at="2017-07-28T18:26:00Z">
+        <test-method status="PASS" signature="Initialize456()[pri:0, instance:Ralphs.CreateAccountTest@6f7fd0e6]" name="Initialize456" is-config="true" duration-ms="2822" started-at="2017-07-29T22:55:33Z" finished-at="2017-07-29T22:55:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Initialize456 -->
-        <test-method status="PASS" signature="YourLocation(java.lang.String)[pri:1, instance:Ralphs.CreateAccountTest@6f7fd0e6]" name="YourLocation" duration-ms="10695" started-at="2017-07-28T18:26:00Z" data-provider="Location" finished-at="2017-07-28T18:26:10Z">
+        <test-method status="PASS" signature="YourLocation(java.lang.String)[pri:1, instance:Ralphs.CreateAccountTest@6f7fd0e6]" name="YourLocation" duration-ms="7133" started-at="2017-07-29T22:55:36Z" data-provider="Location" finished-at="2017-07-29T22:55:43Z">
           <params>
             <param index="0">
               <value>
@@ -22,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- YourLocation -->
-        <test-method status="PASS" signature="YourLocation(java.lang.String)[pri:1, instance:Ralphs.CreateAccountTest@6f7fd0e6]" name="YourLocation" duration-ms="7337" started-at="2017-07-28T18:26:10Z" data-provider="Location" finished-at="2017-07-28T18:26:18Z">
+        <test-method status="PASS" signature="YourLocation(java.lang.String)[pri:1, instance:Ralphs.CreateAccountTest@6f7fd0e6]" name="YourLocation" duration-ms="3948" started-at="2017-07-29T22:55:43Z" data-provider="Location" finished-at="2017-07-29T22:55:47Z">
           <params>
             <param index="0">
               <value>
@@ -33,15 +33,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- YourLocation -->
-        <test-method status="PASS" signature="CreateAccountShoppingList()[pri:2, instance:Ralphs.CreateAccountTest@6f7fd0e6]" name="CreateAccountShoppingList" duration-ms="5175" started-at="2017-07-28T18:26:18Z" finished-at="2017-07-28T18:26:23Z">
+        <test-method status="PASS" signature="CreateAccountShoppingList()[pri:2, instance:Ralphs.CreateAccountTest@6f7fd0e6]" name="CreateAccountShoppingList" duration-ms="4844" started-at="2017-07-29T22:55:47Z" finished-at="2017-07-29T22:55:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateAccountShoppingList -->
-        <test-method status="PASS" signature="TermsAndCondition()[pri:3, instance:Ralphs.CreateAccountTest@6f7fd0e6]" name="TermsAndCondition" duration-ms="4390" started-at="2017-07-28T18:26:23Z" finished-at="2017-07-28T18:26:27Z">
+        <test-method status="PASS" signature="TermsAndCondition()[pri:3, instance:Ralphs.CreateAccountTest@6f7fd0e6]" name="TermsAndCondition" duration-ms="4691" started-at="2017-07-29T22:55:52Z" finished-at="2017-07-29T22:55:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TermsAndCondition -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Ralphs.CreateAccountTest@6f7fd0e6]" name="teardown" is-config="true" duration-ms="2081" started-at="2017-07-28T18:26:27Z" finished-at="2017-07-28T18:26:29Z">
+        <test-method status="PASS" signature="DepartmentMenu1()[pri:4, instance:Ralphs.CreateAccountTest@6f7fd0e6]" name="DepartmentMenu1" duration-ms="2584" started-at="2017-07-29T22:55:56Z" finished-at="2017-07-29T22:55:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DepartmentMenu1 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Ralphs.CreateAccountTest@6f7fd0e6]" name="teardown" is-config="true" duration-ms="2313" started-at="2017-07-29T22:55:59Z" finished-at="2017-07-29T22:56:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

@@ -7,7 +7,7 @@
   </listeners>
   
 
-  <test name="Search Result Testing">
+  <test name="HomePageTesting">
      <classes><class name="Ralphs.HomePage"></class>
      </classes>
   </test> 
