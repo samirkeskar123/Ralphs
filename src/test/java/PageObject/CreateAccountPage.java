@@ -32,6 +32,8 @@ public class CreateAccountPage {
 	By CreateAccountButton = By.cssSelector("#submitButton");
 	By CreateAccountSuccessmsg = By.xpath(".//*[@id='accountContainer']/div/p[2]");
 	By SuccessAccountText = By.xpath(".//*[@id='accountContainer']/div/h1[1]");
+	By MyAccountname = By.cssSelector("#account");
+	By MyAccountEmail = By.cssSelector("#email");
 	
 	
 	
@@ -91,6 +93,14 @@ public class CreateAccountPage {
 	
 	public WebElement AccountSuccessmsg(){
 		return driver.findElement(SuccessAccountText);
+	}
+	
+	public WebElement MyAccount(){
+		return driver.findElement(MyAccountname);
+	}
+	
+	public WebElement MyAccountEmail(){
+		return driver.findElement(MyAccountEmail);
 	}
 	
 }

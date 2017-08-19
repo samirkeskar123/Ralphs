@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Ralphs.listeners"/>
+  </listeners>
+  <test name="CreateAccountLocation(failed)">
+    <classes>
+      <class name="Ralphs.CreateAccountTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="CreateAccount"/>
+          <include name="Initialize456"/>
+        </methods>
+      </class> <!-- Ralphs.CreateAccountTest -->
+    </classes>
+  </test> <!-- CreateAccountLocation(failed) -->
+</suite> <!-- Failed suite [Suite] -->

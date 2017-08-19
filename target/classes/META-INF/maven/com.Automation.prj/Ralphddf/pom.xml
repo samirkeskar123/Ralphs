@@ -40,6 +40,22 @@
     <version>3.4.0</version>
 </dependency>
   
+<dependency>
+	<groupId>org.fluttercode.datafactory</groupId>
+	<artifactId>datafactory</artifactId>
+	<version>0.8</version>
+	<type>jar</type>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.7-dmr</version>
+</dependency>
+
+
+  
   </dependencies>
   
   

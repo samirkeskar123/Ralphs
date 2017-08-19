@@ -15,7 +15,9 @@ public class LandingPage {
     By StoreFinderZip = By.cssSelector("#DropdownSearch-searchInput");
     By StoreFinderZipbutton = By.cssSelector(".DropdownSearch-searchButton");
     By CityZip = By.xpath(".//*[@id='root']/div/div[3]/div[2]/div/div[1]/div[2]/div[1]/div[2]/div/div/div[3]/div[2]/div/div[2]/div[1]/div[1]/a");
+    By ViewAllRecipie = By.cssSelector(".RecipeSuggestions-button");
     
+    		
     //Creating Constructor
     public LandingPage(WebDriver driver) {
 		this.driver = driver;
@@ -51,5 +53,9 @@ public class LandingPage {
     
     public WebElement StoreCityName() {
     	return driver.findElement(CityZip);
+    }
+    
+    public WebElement ViewAllRecipies(){
+    	return driver.findElement(ViewAllRecipie);
     }
 }

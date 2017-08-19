@@ -1,6 +1,11 @@
 package Ralphs;
 
 import java.io.IOException;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.ListIterator;
@@ -14,6 +19,8 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
+import Database.DatabaseConnection;
 import PageObject.CreateAccountPage;
 import resources.base;
 
@@ -123,7 +130,7 @@ public class CreateAccountTest extends base {
 		
 			//Creating a testcase to create unique emailid and password and use it to create account
 		 @Test (priority= 6)
-		 public void CreateAccount() throws InterruptedException {
+		 public void CreateAccount() throws InterruptedException, ClassNotFoundException, SQLException {
 			 
 			 final String randomEmail = randomEmail();
 			 
@@ -148,6 +155,12 @@ public class CreateAccountTest extends base {
              System.out.println(x);
 		     String lop=  CAP6.CreateAccountSuccessmsg().getText();
 		     System.out.println(lop);
+		     Thread.sleep(1000);
+		     CAP6.MyAccount().click();
+		     Thread.sleep(2000);
+		     String EmailText= CAP6.MyAccountEmail().getText();
+		     System.out.println(EmailText);
+		     
 		 }
 	 
     

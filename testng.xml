@@ -12,11 +12,16 @@
      </classes>
   </test> 
   
-  <test name="CreateAccountLocation">
+  <test name="CreateAccountPageTesting">
   <classes><class name="Ralphs.CreateAccountTest"></class>
   </classes>
   </test>
-
+  
+   <test name="RecipiePageTesting">
+  <classes><class name="Ralphs.RecipiePageTest"></class>
+  </classes>
+  </test>
+  
 
 </suite> <!-- Suite -->
 

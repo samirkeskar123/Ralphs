@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="78.446" tests="15" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="102.534" tests="18" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\Samir Personal\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf742521771585620563.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\Samir Personal\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8254188322338061395.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_131/bin/server;C:/Program Files/Java/jre1.8.0_131/bin;C:/Program Files/Java/jre1.8.0_131/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files\Intel\WiFi\bin\;c:\Program Files\Common Files\Intel\WirelessCommon\;C:\apache-maven-3.5.0\bin;C:\Users\Samir Personal\AppData\Local\Microsoft\WindowsApps;;C:\Users\Samir Personal\Desktop;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -60,19 +60,22 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="basePageNavigation" classname="Ralphs.HomePage" time="6.553"/>
-  <testcase name="basePageNavigation" classname="Ralphs.HomePage" time="5.6"/>
-  <testcase name="search" classname="Ralphs.HomePage" time="3.143"/>
-  <testcase name="search" classname="Ralphs.HomePage" time="2.613"/>
-  <testcase name="storefinder" classname="Ralphs.HomePage" time="2.27"/>
-  <testcase name="storefinder" classname="Ralphs.HomePage" time="1.556"/>
-  <testcase name="storefinder1" classname="Ralphs.HomePage" time="3.573"/>
-  <testcase name="storefinder1" classname="Ralphs.HomePage" time="5.022"/>
-  <testcase name="YourLocation" classname="Ralphs.CreateAccountTest" time="6.855"/>
-  <testcase name="YourLocation" classname="Ralphs.CreateAccountTest" time="3.938"/>
-  <testcase name="CreateAccountShoppingList" classname="Ralphs.CreateAccountTest" time="5.04"/>
-  <testcase name="TermsAndCondition" classname="Ralphs.CreateAccountTest" time="3.898"/>
-  <testcase name="DepartmentMenu1" classname="Ralphs.CreateAccountTest" time="2.557"/>
-  <testcase name="DepartmentSubMenu" classname="Ralphs.CreateAccountTest" time="4.246"/>
-  <testcase name="CreateAccount" classname="Ralphs.CreateAccountTest" time="12.244"/>
+  <testcase name="basePageNavigation" classname="Ralphs.HomePage" time="8.402"/>
+  <testcase name="basePageNavigation" classname="Ralphs.HomePage" time="4.261"/>
+  <testcase name="search" classname="Ralphs.HomePage" time="2.676"/>
+  <testcase name="search" classname="Ralphs.HomePage" time="2.718"/>
+  <testcase name="storefinder" classname="Ralphs.HomePage" time="1.548"/>
+  <testcase name="storefinder" classname="Ralphs.HomePage" time="1.52"/>
+  <testcase name="storefinder1" classname="Ralphs.HomePage" time="3.537"/>
+  <testcase name="storefinder1" classname="Ralphs.HomePage" time="3.509"/>
+  <testcase name="YourLocation" classname="Ralphs.CreateAccountTest" time="7.061"/>
+  <testcase name="YourLocation" classname="Ralphs.CreateAccountTest" time="4.112"/>
+  <testcase name="CreateAccountShoppingList" classname="Ralphs.CreateAccountTest" time="5.317"/>
+  <testcase name="TermsAndCondition" classname="Ralphs.CreateAccountTest" time="3.995"/>
+  <testcase name="DepartmentMenu1" classname="Ralphs.CreateAccountTest" time="2.569"/>
+  <testcase name="DepartmentSubMenu" classname="Ralphs.CreateAccountTest" time="4.286"/>
+  <testcase name="CreateAccount" classname="Ralphs.CreateAccountTest" time="15.952"/>
+  <testcase name="FreshPicks" classname="Ralphs.RecipiePageTest" time="8.037"/>
+  <testcase name="ViewAllRecipies" classname="Ralphs.RecipiePageTest" time="4.171"/>
+  <testcase name="WorldCusines" classname="Ralphs.RecipiePageTest" time="2.979"/>
 </testsuite>
